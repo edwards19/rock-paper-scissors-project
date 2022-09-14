@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFF4E0;
+}
+
+button {
+  font-size: 24px;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border-color: #454A55;
+  background-color: #D1C2A5;
+  color: #454A55;
+  margin-right: 10px;
+  transition: transform 0.2s;
+}
+
+button:hover,
+.play-again:hover {
+  transform: scale(1.1);
+}
+
+.info-container {
+  margin-top: 24px;
+  width: 580px;
+  border: 3px solid #454A55;
+  border-radius: 4px;
+  padding: 20px;
+  line-height: 40px;
+}
+
+.outcome,
+.result,
+.player,
+.computer {
+  font-size: 20px;
+  color: #6B7060;
+  font-weight: bold;
+}
+
+.play-again {
+  display: none;
+  margin-top: 24px;
+  font-size: 24px;
+  padding: 12px 80px;
+  border-radius: 6px;
+  border-color: #454A55;
+  background-color: #D1C2A5;
+  color: #454A55;
+  margin-right: 10px;
+  transition: transform 0.2s;
+}
